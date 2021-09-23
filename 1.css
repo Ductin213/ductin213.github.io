@@ -1,5 +1,51 @@
 *{margin: 0; padding: 0;}
 
+.khoittnho {
+    margin-bottom: 55px;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+span.motaqt {
+    font-size: 13px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+.khoittnho h3.tieudecap3 {
+    font-size: 16px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+span.dam {
+    font-weight: bold;
+    font-family: segeo ui light;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segeo ui light;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.tieudeto {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 .tt a.nuthire.btn.btn-primary {
     width: 180px;
     background: black;
@@ -67,9 +113,9 @@ img {
     width: auto;
 }
 li.nav-item {
-	margin: 0;
-	padding: 0;
-	margin: 0 17px;
+    margin: 0;
+    padding: 0;
+    margin: 0 17px;
 }
 a.nav-link {
     font-family: segoe ui;
@@ -78,10 +124,16 @@ a.nav-link {
     color: #101010;
     line-height: 80px;
 }
-@media (max-width: 576px) {
-	* {
+.cot2_3 img {
+    height: 400px;
+    width: auto;
+    margin-top: 10%;
 
-	}
+}
+@media (max-width: 576px) {
+    * {
+
+    }
 
 .tt img {
     width: 200px;
@@ -93,7 +145,7 @@ ul.nav.navbar-nav.float-xs-right {}
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {}
 
 .menutop {}
-	ul.nav.navbar-nav.float-xs-right {
+    ul.nav.navbar-nav.float-xs-right {
     text-align: center;
     background: white;
     margin: 0;
@@ -103,22 +155,22 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {}
     margin-right: -15px;
  }
 
-	li.nav-item {
-	    display: inline!important;
-	    float: none!important;
-	    margin: 0 0;
-	}
+    li.nav-item {
+        display: inline!important;
+        float: none!important;
+        margin: 0 0;
+    }
 
-	li.nav-item.active {}
+    li.nav-item.active {}
 
-	a.nav-link {
-	    line-height: 27px;
-	    display: inline!important;
-	}
+    a.nav-link {
+        line-height: 27px;
+        display: inline!important;
+    }
 
-	a.navbar-brand {
-	    display: block;
-	    text-align: center;
-	    width: 100%;
-	}
+    a.navbar-brand {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 }
