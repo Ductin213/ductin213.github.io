@@ -1,6 +1,43 @@
 *{margin: 0; padding: 0;}
 
-.khoitt1:before {content: "";position: absolute;left: 0;top: 0;width: 50%;height: 100%;background: #ea4e4e;}
+.tt a.nuthire.btn.btn-primary {
+    width: 180px;
+    background: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.tt p {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    width: 150px;
+    height: auto;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 25%;
+}
+
+.khoitt1:before {content: "";position: absolute;left: 0;top: 0;width: 50%;height: 100%;background: #ea4e4e;z-index: 1;}
 
 a.navbar-brand {
     padding: 0;
@@ -45,10 +82,26 @@ a.nav-link {
 	* {
 
 	}
+
+.tt img {
+    width: 200px;
+    margin-top: 120px;
+}
+
+ul.nav.navbar-nav.float-xs-right {}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {}
+
+.menutop {}
 	ul.nav.navbar-nav.float-xs-right {
-    float: none;
     text-align: center;
-	}
+    background: white;
+    margin: 0;
+    padding: 10px 19px;
+    width: 110%;
+    border-top: 1px solid #ccc2c2;
+    margin-right: -15px;
+ }
 
 	li.nav-item {
 	    display: inline!important;
