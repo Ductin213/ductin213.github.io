@@ -3,122 +3,156 @@
 	<title> I'm Me</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="1.js"></script>
-	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="1.css">
+	<!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body >
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=404692034371665&autoLogAppEvents=1" nonce="HNtUsGRC"></script> <!-- comment fb -->
+	<!-- Header section start -->
+	<header class="toggle">
 
+		<div class="user">
+			<img src="images/avarta.png" alt="">
+			<h3 class="name">Phương Quang</h3>
+			<p class="post">Fullstack developer</p>
+		</div>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 
- 	<div class="menutop">
- 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
- 			<div class="container">
- 				<a href="#" class="navbar-brand"><img src="images/logome.png" alt="Logo Quang"></a>
-	 			<ul class="nav navbar-nav float-xs-right">
-	 				<li class="nav-item active">
-	 					<a href="" class="nav-link ">Info</a>
-	 				</li>
-	 				<li class="nav-item ">
-	 					<a href="#" class="nav-link kn">Kinh Nghiệm</a>
-	 				</li>
-	 				<li class="nav-item ">
-	 					<a href="#" class="nav-link sp">Sản Phẩm</a>
-	 				</li>
-	 				<li class="nav-item ">
-	 					<a href="#" class="nav-link cm">Comments</a>
-	 				</li>
-	 				<li class="nav-item ">
-	 					<a href="#" class="nav-link lh">Liên Hệ</a>
-	 				</li>
-	 			</ul>	
- 			</div>
- 		</nav>
- 	</div>	<!-- het menu -->
+	</header>
+ 	<!-- Header section end -->
 
- 	<div class="khoitt1">
- 		<div class="container text-xs-center">
- 			<div class="tt">
- 				<img src="images/avarta.png" alt="">
- 				<h2>Phương Quang</h2>
- 				<p>Facilis dolores risus, malesuada. Labore labore, molestiae vel? Vel corrupti proin explicabo. Maiores sapiente, penatibus! Quod, ridiculus consectetuer aute venenatis, torquent 	vehicula! Animi, wisi.</p>
- 				<a href="" class="nuthire btn btn-primary">Hợp tác việc làm</a>
- 			</div>
- 			<div class="btnxuong"></div>
- 		</div>
- 	</div>	<!-- het khoi tt1 -->
+	<div id="menu" class="fas fa-bars"></div>
 
- 	<div class="edu" id="khoiedu">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-sm-12 tieudeto text-xs-center">
- 					<h1>Kinh nghiệm và quá trình học tập</h1>
- 				</div>
- 				<div class="col-sm-4 cot1_3">
- 					<h2 class="tieudecap2 text-sm-right text-xs-center">Quá trình <span class="dam">học</span></h2>
- 					<div class="khoittnho text-sm-right text-xs-center">
- 						<h3 class="tieudecap3">Học lập trình online</h3>
- 						<span class="motaqt"> Nonummy magni deserunt anim malesuada arcu.</span>
- 						<p>, delectus at do minim sollicitudin, praesent? Varius eiusmod enim! Quae, ultrices, mauris incidunt? Aliquam egestas</p>
- 					</div>
- 				
- 					<div class="khoittnho text-sm-right text-xs-center">
- 						<h3 class="tieudecap3">Học lập trình online</h3>
- 						<span class="motaqt"> Nonummy magni deserunt anim malesuada arcu.</span>
- 						<p>, delectus at do minim sollicitudin, praesent? Varius eiusmod enim! Quae, ultrices, mauris incidunt? Aliquam egestas</p>
- 					</div>
- 				
- 					<div class="khoittnho text-sm-right text-xs-center">
- 						<h3 class="tieudecap3">Học lập trình online</h3>
- 						<span class="motaqt"> Nonummy magni deserunt anim malesuada arcu.</span>
- 						<p>, delectus at do minim sollicitudin, praesent? Varius eiusmod enim! Quae, ultrices, mauris incidunt? Aliquam egestas</p>
- 					</div>
- 				</div> <!-- het cot 4/1 -->
- 				<div class="col-sm-4 cot2_3">
- 					<img src="images/avarta2.png" alt="" class="img-fluid mx-auto d-block">
- 				</div>
- 				<div class="col-sm-4 cot3_3">
- 					<h2 class="tieudecap2 text-sm-left text-xs-center">Quá trình <span class="dam">làm việc</span></h2>
- 					<div class="khoittnho text-sm-left text-xs-center">
- 						<h3 class="tieudecap3">Fresher</h3>
- 						<span class="motaqt"> Nonummy magni deserunt anim malesuada arcu.</span>
- 						<p>, delectus at do minim sollicitudin, praesent? Varius eiusmod enim! Quae, ultrices, mauris incidunt? Aliquam egestas</p>
- 					</div>
- 				
- 					<div class="khoittnho text-sm-left text-xs-center">
- 						<h3 class="tieudecap3">Fresher</h3>
- 						<span class="motaqt"> Nonummy magni deserunt anim malesuada arcu.</span>
- 						<p>, delectus at do minim sollicitudin, praesent? Varius eiusmod enim! Quae, ultrices, mauris incidunt? Aliquam egestas</p>
- 					</div>
- 				
- 					<div class="khoittnho text-sm-left text-xs-center">
- 						<h3 class="tieudecap3">Fresher</h3>
- 						<span class="motaqt"> Nonummy magni deserunt anim malesuada arcu.</span>
- 						<p>, delectus at do minim sollicitudin, praesent? Varius eiusmod enim! Quae, ultrices, mauris incidunt? Aliquam egestas</p>
- 					</div>
- 				</div> <!-- het cot 4/1 -->
- 			</div>
- 		</div>
- 	</div>
+	<!-- home section starts -->
+		<section class="home" id="home">
+			<h3>HI THERE!</h3>
+			<h1>I'm <span>Phương Quang</span></h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus voluptatem aut beatae! Amet dignissimos deserunt magnam quibusdam voluptate et. Nihil dolorem quaerat iste itaque expedita similique quo id nostrum.</p>
+			<a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+		</section>
+	<!-- home section end -->
 
- 	<div id="khoisp" class="sp">Product</div>
-
- 	<div class="khoicomment" id="khoicomment">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-sm-12">
- 					<h2 class="text-xs-center">
- 						Phản hồi
- 					</h2>
- 				</div>
- 				<div class="commentfacebook col-sm-8 push-sm-2">
-					<div class="fb-comments" data-href="https://ductin213.github.io/" data-width="600px" data-numposts="5"></div>
+	<!-- About section starts -->
+	<section class="about" id="about">
+		<h1 class="heading"><span>about</span> me </h1>
+		<div class="row">
+			<div class="info">
+				<h3><span>name : </span> Phương Quang</h3>
+				<h3><span>age : </span> 30</h3>
+				<h3><span>qualification : </span> BMS</h3>
+				<h3><span>post : </span> fullstack developer</h3>
+				<h3><span>language : </span> Vietnamese</h3>
+				<a href="#"><button class="btn">My CV <i class="fas fa-download"></i></button></a>
+			</div>
+			<div class="counter">
+				<div class="box">
+					<span>1+</span>
+					<h3>years of experience</h3>
 				</div>
- 			</div>
- 		</div>
- 	</div>
+				<div class="box">
+					<span>10+</span>
+					<h3>project</h3>
+				</div>
+				<div class="box">
+					<span>10+</span>
+					<h3>happy clients</h3>
+				</div>
+				<div class="box">
+					<span>2+</span>
+					<h3>awards work</h3>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<!-- About section end -->
+
+	<!-- education section starts -->
+	<section class="education" id="education">
+		<h1 class="heading">my <span>education</span></h1>
+		<div class="box-container">
+			<div class="box">
+				<i class="fas fa-graduation-cap"></i>
+				<span>2021</span>
+				<h3>Backend Development</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati nesciunt magnam iure eveniet amet commodi dolorum reprehenderit iste. Similique facere autem voluptatum excepturi temporibus repellat, totam ea ullam dolore tempore?</p>
+			</div>
+			<div class="box">
+				<i class="fas fa-graduation-cap"></i>
+				<span>2022</span>
+				<h3>Fullstack Development</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati nesciunt magnam iure eveniet amet commodi dolorum reprehenderit iste. Similique facere autem voluptatum excepturi temporibus repellat, totam ea ullam dolore tempore?</p>
+			</div>
+		</div>
+	</section>
+	<!-- education section end -->
+	
+	<!-- portfolio section starts -->
+	<section class="portfolio" id="portfolio">
+		<h1 class="heading">my <span>portfolio</span></h1>
+		<div class="box-container">
+			<div class="box">
+				<img src="images/avarta2.png" alt="">
+			</div>
+			<div class="box">
+				<img src="images/avarta2.png" alt="">
+			</div>
+			<div class="box">
+				<img src="images/avarta2.png" alt="">
+			</div>
+			<div class="box">
+				<img src="images/avarta2.png" alt="">
+			</div>
+			<div class="box">
+				<img src="images/avarta2.png" alt="">
+			</div>
+			<div class="box">
+				<img src="images/avarta2.png" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- portfolio section end -->
+
+	<!-- contact section starts -->
+	<section class="contact" id="contact">
+		<h1 class="heading"><span>contact</span> me </h1>
+		<div class="row">
+			<div class="content">
+				<h3 class="title">contact info</h3>
+				<div class="info">
+					<h3><i class="fas fa-envelope"></i>ductin2132019@gmail.com</h3>
+					<h3><i class="fas fa-phone"></i>+84-909-649-337</h3>
+					<h3><i class="fa fa-map-marker-alt"></i>hcm, vietnam 900000</h3>
+				</div>
+			</div>
+			<form action="">
+				<input type="text" name="" id="" class="box" placeholder="name">
+				<input type="email" name="" id="" class="box" placeholder="email">
+				<input type="text" name="" id="" class="box" placeholder="project">
+				<textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+				<button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+			</form>
+		</div>
+	</section>
+
+	<!-- contact section end -->
+	<!-- scroll top  -->
+	<a href="#home" class="top">
+		<img src="images/back-to-top-comp.png" alt="">
+	</a>
+	<!-- Jquery link -->
+	<!-- jquery cdn link  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+ 	
+ 	
 </body>
 </html>
